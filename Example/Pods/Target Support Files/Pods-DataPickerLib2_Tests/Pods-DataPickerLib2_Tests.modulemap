@@ -1,0 +1,6 @@
+framework module Pods_DataPickerLib2_Tests {
+  umbrella header "Pods-DataPickerLib2_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DataPickerLib2",
+  "version": "0.1.0",
+  "summary": "A short description of DataPickerLib2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/antony@123789.org/DataPickerLib2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "antony@123789.org": "antony@123789.org"
+  },
+  "source": {
+    "git": "https://github.com/antony@123789.org/DataPickerLib2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DataPickerLib2/Classes/**/*"
+}

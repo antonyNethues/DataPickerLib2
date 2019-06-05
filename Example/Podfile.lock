@@ -1,0 +1,16 @@
+PODS:
+  - DataPickerLib2 (0.1.0)
+
+DEPENDENCIES:
+  - DataPickerLib2 (from `../`)
+
+EXTERNAL SOURCES:
+  DataPickerLib2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DataPickerLib2: 2df7ff65859011d815345c374885a5be82198ae4
+
+PODFILE CHECKSUM: 5853d2c0dadb1f80e6060cb83ff7a162939ecfa1
+
+COCOAPODS: 1.5.3

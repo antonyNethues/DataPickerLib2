@@ -1,0 +1,6 @@
+framework module DataPickerLib2 {
+  umbrella header "DataPickerLib2-umbrella.h"
+
+  export *
+  module * { export * }
+}

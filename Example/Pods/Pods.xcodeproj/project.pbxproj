@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122AA8FE3C4748CE92266219B6E59661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		1994629A1C4F9F59E6B8322DB1990CF3 /* Pods-DataPickerLib2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE22A554BDD7826CF4235E33136BEE36 /* Pods-DataPickerLib2_Tests-dummy.m */; };
+		2385EB8E8220C104E2DD0EE45F90AFFA /* DataPickerLib2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA658784AE1B25F8EDC75154106BBFE /* DataPickerLib2-dummy.m */; };
+		6E9E589DA268CF16E9356385750853FD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773861E51E377BC1D05248A83F47955 /* ReplaceMe.swift */; };
+		93C61756AF72212BA62FBBB0FCA96845 /* DataPickerLib2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DAB09949522D29165376856CB6C08B /* DataPickerLib2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B799D9704006DBA1AD72BD5EA14E7B93 /* Pods-DataPickerLib2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7949A86D857B9ED2B792698CDA2ED070 /* Pods-DataPickerLib2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D490BC26068854616ACBE1F0780AACD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A6CFA3D4CB5C05C1285E07FA615AE99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6677A7A10DDDC23D89B13164FB0B5C;
+			remoteInfo = DataPickerLib2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E5C8D76CC705E9740629161CBE8217 /* DataPickerLib2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DataPickerLib2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0AF218EC3CF7AF6990A8030EA954CE91 /* Pods-DataPickerLib2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataPickerLib2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D0DA3BD6E6F327152C461E3DD391FB9 /* Pods-DataPickerLib2_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataPickerLib2_Tests-resources.sh"; sourceTree = "<group>"; };
+		2E19DEF18B61ABA147C54E57C3F5C319 /* DataPickerLib2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DataPickerLib2-prefix.pch"; sourceTree = "<group>"; };
+		30FD14321DD12725579ACBD790D0AE14 /* Pods-DataPickerLib2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataPickerLib2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		323BA47284FD0CF682BFC5F12C7C7DF8 /* Pods-DataPickerLib2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DataPickerLib2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BC119C60CCC2D499FC75450FE23A344 /* DataPickerLib2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DataPickerLib2.xcconfig; sourceTree = "<group>"; };
+		4DD0F29425D3AD269769FD73458E4142 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DAB09949522D29165376856CB6C08B /* DataPickerLib2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DataPickerLib2-umbrella.h"; sourceTree = "<group>"; };
+		77E18DDB66835ECF2901C3D19DB43955 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7949A86D857B9ED2B792698CDA2ED070 /* Pods-DataPickerLib2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataPickerLib2_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7EBB1D151CB73F4C88B5BBFF8402E720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		86ADFE6CF04252E87E9152DD9403D33D /* Pods-DataPickerLib2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DataPickerLib2_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9618C2EA17F822AE8FE436400BD27BBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B793D42B3A36CDF778C6442BF4A49CF /* Pods-DataPickerLib2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DataPickerLib2_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9FA658784AE1B25F8EDC75154106BBFE /* DataPickerLib2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DataPickerLib2-dummy.m"; sourceTree = "<group>"; };
+		AE6336151BBE22F111B11420D6D96B84 /* Pods_DataPickerLib2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DataPickerLib2_Tests.framework; path = "Pods-DataPickerLib2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B344AAA02A0FEB03A6F18CBF72FC323C /* DataPickerLib2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DataPickerLib2.modulemap; sourceTree = "<group>"; };
+		B9951798E663330FC833047A1409F272 /* Pods-DataPickerLib2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataPickerLib2_Tests.modulemap"; sourceTree = "<group>"; };
+		BB4DE202F6B10CD6C91DF5B7BF7FCA03 /* DataPickerLib2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DataPickerLib2.framework; path = DataPickerLib2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D773861E51E377BC1D05248A83F47955 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DataPickerLib2/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DE22A554BDD7826CF4235E33136BEE36 /* Pods-DataPickerLib2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DataPickerLib2_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFE248FBC3F8A422CBB1B46D70EDEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122AA8FE3C4748CE92266219B6E59661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC551C8811184E809047D01E7864BE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D490BC26068854616ACBE1F0780AACD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34700AB1FAE7A206932A800D332DC964 /* DataPickerLib2 */ = {
+			isa = PBXGroup;
+			children = (
+				D773861E51E377BC1D05248A83F47955 /* ReplaceMe.swift */,
+				55CD9A013EE90F9A3B05BE110B2C8C92 /* Pod */,
+				C9EBDB5881E9CCE46A4B175EF20D2073 /* Support Files */,
+			);
+			name = DataPickerLib2;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55CD9A013EE90F9A3B05BE110B2C8C92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				02E5C8D76CC705E9740629161CBE8217 /* DataPickerLib2.podspec */,
+				7EBB1D151CB73F4C88B5BBFF8402E720 /* LICENSE */,
+				77E18DDB66835ECF2901C3D19DB43955 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C7D1CDD5C88F6575AB35FD715EC38715 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C307EA86D9FCB889F373516155A2FDD5 /* Products */,
+				A4039F0CB3908568BA73B16646DE141E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		837B58C3B5293AB8C9787FF5518161FB /* Pods-DataPickerLib2_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD0F29425D3AD269769FD73458E4142 /* Info.plist */,
+				B9951798E663330FC833047A1409F272 /* Pods-DataPickerLib2_Tests.modulemap */,
+				323BA47284FD0CF682BFC5F12C7C7DF8 /* Pods-DataPickerLib2_Tests-acknowledgements.markdown */,
+				0AF218EC3CF7AF6990A8030EA954CE91 /* Pods-DataPickerLib2_Tests-acknowledgements.plist */,
+				DE22A554BDD7826CF4235E33136BEE36 /* Pods-DataPickerLib2_Tests-dummy.m */,
+				86ADFE6CF04252E87E9152DD9403D33D /* Pods-DataPickerLib2_Tests-frameworks.sh */,
+				0D0DA3BD6E6F327152C461E3DD391FB9 /* Pods-DataPickerLib2_Tests-resources.sh */,
+				7949A86D857B9ED2B792698CDA2ED070 /* Pods-DataPickerLib2_Tests-umbrella.h */,
+				30FD14321DD12725579ACBD790D0AE14 /* Pods-DataPickerLib2_Tests.debug.xcconfig */,
+				9B793D42B3A36CDF778C6442BF4A49CF /* Pods-DataPickerLib2_Tests.release.xcconfig */,
+			);
+			name = "Pods-DataPickerLib2_Tests";
+			path = "Target Support Files/Pods-DataPickerLib2_Tests";
+			sourceTree = "<group>";
+		};
+		A4039F0CB3908568BA73B16646DE141E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				837B58C3B5293AB8C9787FF5518161FB /* Pods-DataPickerLib2_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C307EA86D9FCB889F373516155A2FDD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4DE202F6B10CD6C91DF5B7BF7FCA03 /* DataPickerLib2.framework */,
+				AE6336151BBE22F111B11420D6D96B84 /* Pods_DataPickerLib2_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D1CDD5C88F6575AB35FD715EC38715 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34700AB1FAE7A206932A800D332DC964 /* DataPickerLib2 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9EBDB5881E9CCE46A4B175EF20D2073 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B344AAA02A0FEB03A6F18CBF72FC323C /* DataPickerLib2.modulemap */,
+				4BC119C60CCC2D499FC75450FE23A344 /* DataPickerLib2.xcconfig */,
+				9FA658784AE1B25F8EDC75154106BBFE /* DataPickerLib2-dummy.m */,
+				2E19DEF18B61ABA147C54E57C3F5C319 /* DataPickerLib2-prefix.pch */,
+				55DAB09949522D29165376856CB6C08B /* DataPickerLib2-umbrella.h */,
+				9618C2EA17F822AE8FE436400BD27BBC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DataPickerLib2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ADE52EC7B67E8B113D6ECD2E76B76EA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C61756AF72212BA62FBBB0FCA96845 /* DataPickerLib2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA60773A49B510C04CC75B06FDCBE32C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B799D9704006DBA1AD72BD5EA14E7B93 /* Pods-DataPickerLib2_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D917274A48F4C8ED508360434769D22 /* Pods-DataPickerLib2_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741D8E5DA0285D336A589052CF07AD0 /* Build configuration list for PBXNativeTarget "Pods-DataPickerLib2_Tests" */;
+			buildPhases = (
+				DA60773A49B510C04CC75B06FDCBE32C /* Headers */,
+				9A9C0976054F0DBE0E6040494D84CBA2 /* Sources */,
+				FC551C8811184E809047D01E7864BE76 /* Frameworks */,
+				BD90F5A4CF046F3DB4F18E6E84E04049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD0DEB477107356D4DBE037518CA886 /* PBXTargetDependency */,
+			);
+			name = "Pods-DataPickerLib2_Tests";
+			productName = "Pods-DataPickerLib2_Tests";
+			productReference = AE6336151BBE22F111B11420D6D96B84 /* Pods_DataPickerLib2_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF6677A7A10DDDC23D89B13164FB0B5C /* DataPickerLib2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E64DDFC6A5B93EE70AFFA449F53D822 /* Build configuration list for PBXNativeTarget "DataPickerLib2" */;
+			buildPhases = (
+				ADE52EC7B67E8B113D6ECD2E76B76EA8 /* Headers */,
+				82F0A81A229A24F3561E91E4A381A86B /* Sources */,
+				EDFE248FBC3F8A422CBB1B46D70EDEEF /* Frameworks */,
+				70C7C31C280BA81694B2A965D74F8951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataPickerLib2;
+			productName = DataPickerLib2;
+			productReference = BB4DE202F6B10CD6C91DF5B7BF7FCA03 /* DataPickerLib2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C307EA86D9FCB889F373516155A2FDD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6677A7A10DDDC23D89B13164FB0B5C /* DataPickerLib2 */,
+				1D917274A48F4C8ED508360434769D22 /* Pods-DataPickerLib2_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70C7C31C280BA81694B2A965D74F8951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD90F5A4CF046F3DB4F18E6E84E04049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F0A81A229A24F3561E91E4A381A86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2385EB8E8220C104E2DD0EE45F90AFFA /* DataPickerLib2-dummy.m in Sources */,
+				6E9E589DA268CF16E9356385750853FD /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9C0976054F0DBE0E6040494D84CBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1994629A1C4F9F59E6B8322DB1990CF3 /* Pods-DataPickerLib2_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AD0DEB477107356D4DBE037518CA886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DataPickerLib2;
+			target = EF6677A7A10DDDC23D89B13164FB0B5C /* DataPickerLib2 */;
+			targetProxy = 2A6CFA3D4CB5C05C1285E07FA615AE99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5DA5F81CB87CEA3EF7BF8397FA0B96EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FD14321DD12725579ACBD790D0AE14 /* Pods-DataPickerLib2_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataPickerLib2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataPickerLib2_Tests/Pods-DataPickerLib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6635BA9D2E213A1B54A16B7029AB053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC119C60CCC2D499FC75450FE23A344 /* DataPickerLib2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DataPickerLib2/DataPickerLib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DataPickerLib2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DataPickerLib2/DataPickerLib2.modulemap";
+				PRODUCT_MODULE_NAME = DataPickerLib2;
+				PRODUCT_NAME = DataPickerLib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E5A1077E1E7DC05EE2C4AFED2C94D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC119C60CCC2D499FC75450FE23A344 /* DataPickerLib2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DataPickerLib2/DataPickerLib2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DataPickerLib2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DataPickerLib2/DataPickerLib2.modulemap";
+				PRODUCT_MODULE_NAME = DataPickerLib2;
+				PRODUCT_NAME = DataPickerLib2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C42E10FD003140526D3D15D75807335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B793D42B3A36CDF778C6442BF4A49CF /* Pods-DataPickerLib2_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DataPickerLib2_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DataPickerLib2_Tests/Pods-DataPickerLib2_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E64DDFC6A5B93EE70AFFA449F53D822 /* Build configuration list for PBXNativeTarget "DataPickerLib2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5A1077E1E7DC05EE2C4AFED2C94D0A /* Debug */,
+				6635BA9D2E213A1B54A16B7029AB053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1741D8E5DA0285D336A589052CF07AD0 /* Build configuration list for PBXNativeTarget "Pods-DataPickerLib2_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA5F81CB87CEA3EF7BF8397FA0B96EB /* Debug */,
+				9C42E10FD003140526D3D15D75807335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
