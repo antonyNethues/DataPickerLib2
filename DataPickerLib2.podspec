@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'antony@123789.org' => 'antony@123789.org' }
-  s.source           = { :git => 'https://github.com/antonyNethues/DataPickerLib2.git', :branch => "master" }
+  s.source           = { :git => 'https://github.com/antonyNethues/DataPickerLib2.git', :branch => "master", :tag => 'testVersion' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -42,5 +42,4 @@ TODO: Add long description of the pod here.
 #  When using multiple platforms
   s.ios.deployment_target = "12.1"
   s.swift_version = "4.2"
-
 end
