@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DataPickerLib2_Tests' do
+  pod 'DataPickerLib2', :path => '../'
+  
+  
+end
