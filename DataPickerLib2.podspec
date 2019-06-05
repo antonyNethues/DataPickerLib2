@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
 #  When using multiple platforms
   s.ios.deployment_target = "12.1"
   s.swift_version = "4.2"
+
 end
