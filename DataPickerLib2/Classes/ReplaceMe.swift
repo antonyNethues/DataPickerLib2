@@ -144,7 +144,7 @@ class SelectViewController: UIViewController {
         
         oldStoredData = self.committedStoredData
         //committedStoredData = [Int](repeating: 0, count: dataArray.count)
-        for (index, listObj) in dataArray.enumerated() {
+        for (index, _) in dataArray.enumerated() {
             self.customPickerView.selectRow(self.committedStoredData[index], inComponent: index, animated: true)
             self.customPickerView.reloadAllComponents()
         }
