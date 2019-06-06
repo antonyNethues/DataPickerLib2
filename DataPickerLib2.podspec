@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DataPickerLib2'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DataPickerLib2.test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
+  s.summary          = 'test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
 
   s.homepage         = 'https://github.com/antonyNethues/DataPickerLib2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
