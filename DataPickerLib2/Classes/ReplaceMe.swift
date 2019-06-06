@@ -87,14 +87,14 @@ extension UIView{
     }
 }
 //MARK:-
-protocol CustomPickerDelegate : class {
+public protocol CustomPickerDelegate : class {
     func doneTapped(data : AnyObject)
     func cancelTapped(data : AnyObject)
 }
 class SelectViewController: UIViewController {
     
     @IBOutlet weak var rootView: UIView!
-    weak var delegate : CustomPickerDelegate!
+    public weak var delegate : CustomPickerDelegate!
     
     @IBOutlet weak var customPickerView: UIPickerView!
     @IBOutlet weak var labelTitle: UILabel!
