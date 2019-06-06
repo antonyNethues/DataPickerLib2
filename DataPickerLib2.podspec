@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DataPickerLib2'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DataPickerLib2.'
+  s.summary          = 'A short description of DataPickerLib2.test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
