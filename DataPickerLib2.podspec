@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/antonyNethues/DataPickerLib2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'antony@123789.org' => 'antony@123789.org' }
+  s.author           = { 'antony@123789.org' => 'Antony Mac' }
   s.source           = { :git => 'https://github.com/antonyNethues/DataPickerLib2.git', :branch => "master", :tag => '0.1.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
