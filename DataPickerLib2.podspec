@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DataPickerLib2'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
 
 # This description is used to generate tags and improve search results.
