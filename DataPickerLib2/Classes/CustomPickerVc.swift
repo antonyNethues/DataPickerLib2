@@ -1,4 +1,3 @@
-
 //
 //  SelectCountryViewController.swift
 //  DataSendSwift
@@ -9,6 +8,15 @@
 
 import UIKit
 
+public class PickerInpuTF : UITextField {
+    var data = [Any]()
+    var parentData = [[Any]]()
+}
+public class PickerInputB : UIButton {
+    var data = [Any]()
+    var parentData = [[Any]]()
+    
+}
 extension UIView{
     
     func animShow(){
@@ -88,29 +96,42 @@ extension UIView{
 }
 //MARK:-
 public protocol CustomPickerDelegate : class {
-    func doneTapped(data : AnyObject)
-    func cancelTapped(data : AnyObject)
+    func doneTapped(data : Any,type : PickerType)
+    func cancelTapped(data : Any)
+}
+public enum PickerType {
+    case NormalOpt
+    case DateOpt
 }
 class SelectViewController: UIViewController {
     
     @IBOutlet weak var rootView: UIView!
-    public weak var delegate : CustomPickerDelegate!
-    
+    weak var delegate : CustomPickerDelegate!
+    var type : PickerType!
     @IBOutlet weak var customPickerView: UIPickerView!
+    @IBOutlet weak var customDatePickerView: UIDatePicker!
     @IBOutlet weak var labelTitle: UILabel!
     
     var pickerTitle:String! = ""
     
     var dataArray = [[String]]()
     
-    var oldStoredData = [Int]()
-    var committedStoredData = [Int]()
+    var oldStoredData = [Any]()
+    var committedStoredData = [Any]()
     
     @IBOutlet weak var constrRootViewBottom: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if type == nil {
+            type = PickerType.NormalOpt
+        }
+        if type == PickerType.NormalOpt {
+            self.customDatePickerView.isHidden = true
+        }
+        else {
+            self.customPickerView.isHidden = true
+        }
         providesPresentationContextTransitionStyle = true
         definesPresentationContext = true
         modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
@@ -144,9 +165,18 @@ class SelectViewController: UIViewController {
         
         oldStoredData = self.committedStoredData
         //committedStoredData = [Int](repeating: 0, count: dataArray.count)
-        for (index, _) in dataArray.enumerated() {
-            self.customPickerView.selectRow(self.committedStoredData[index], inComponent: index, animated: true)
-            self.customPickerView.reloadAllComponents()
+        if type == PickerType.DateOpt {
+            let formatter = DateFormatter()
+            formatter.dateFormat = "dd/MMM/yyyy HH:MM:ss"
+            if self.committedStoredData is [String] {
+                self.customDatePickerView.date = formatter.date(from: self.committedStoredData[0] as! String) ?? Date()
+            }
+        }
+        else {
+            for (index, _) in dataArray.enumerated() {
+                self.customPickerView.selectRow(self.committedStoredData[index] as! Int, inComponent: index, animated: true)
+                self.customPickerView.reloadAllComponents()
+            }
         }
         
     }
@@ -162,10 +192,17 @@ class SelectViewController: UIViewController {
      */
     
     @IBAction func doneClicked(_ sender: Any) {
-        for (index, _) in dataArray.enumerated() {
-            self.committedStoredData[index] = self.customPickerView.selectedRow(inComponent: index)
+        if type == PickerType.NormalOpt {
+            for (index, _) in dataArray.enumerated() {
+                self.committedStoredData[index] = self.customPickerView.selectedRow(inComponent: index) as Any
+            }
         }
-        self.delegate.doneTapped(data: self.committedStoredData as AnyObject)
+        else {
+            let formatter = DateFormatter()
+            formatter.dateFormat = "dd/MMM/yyyy HH:MM:ss"
+            self.committedStoredData[0] = formatter.string(from: self.customDatePickerView.date) as Any
+        }
+        self.delegate.doneTapped(data: self.committedStoredData as Any, type: type)
         // self.delegate.doneTapped(data: self.)
         rootView.animHide { (completed) in
             
@@ -173,7 +210,7 @@ class SelectViewController: UIViewController {
         }
     }
     @IBAction func cancelClicked(_ sender: Any) {
-        self.delegate.cancelTapped(data: self.committedStoredData as AnyObject)
+        self.delegate.cancelTapped(data: self.committedStoredData as Any)
         
         rootView.animHide { (completed) in
             self.dismiss(animated: true, completion: nil)

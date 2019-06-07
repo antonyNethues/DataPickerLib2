@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DataPickerLib2'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'test test test test e etsetet sestet t es ttesteests taste stats tsestsetesttestese stems'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'antony@123789.org' => 'Antony Mac' }
-  s.source           = { :git => 'https://github.com/antonyNethues/DataPickerLib2.git', :branch => "master", :tag => '0.1.2' }
+  s.source           = { :git => 'https://github.com/antonyNethues/DataPickerLib2.git', :branch => "master", :tag => '0.1.3' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
