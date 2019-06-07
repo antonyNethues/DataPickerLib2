@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'DataPickerLib2'
 ```
 ## Use
-
+```
 - Use custom classes for textfield and buttons
 - manage data format in array of array
 - copy viewcontroller containg pickerview from storyboard and pase in yourstoryboard
@@ -46,10 +46,9 @@ pod 'DataPickerLib2'
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 // Get the new view controller using segue.destination.
                 // Pass the selected object to the new view controller.
-                if segue.identifier == "select_data" {
+            if segue.identifier == "select_data" {
 
             let selectCountryVC = segue.destination as! SelectViewController
-
             selectCountryVC.providesPresentationContextTransitionStyle = true
             selectCountryVC.definesPresentationContext = true
             selectCountryVC.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
@@ -64,7 +63,7 @@ pod 'DataPickerLib2'
             print("Segue Performing")
         }
     }
-
+```
 ## Author
 
 antony@123789.org
